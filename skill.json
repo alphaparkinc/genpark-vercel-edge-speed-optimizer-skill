@@ -1,0 +1,24 @@
+{
+  "name": "genpark-vercel-edge-speed-optimizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel Edge functions cold start evaluator.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "vercel",
+    "edge",
+    "latency"
+  ],
+  "inputs": {
+    "bundle_size_kb": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "estimated_cold_start_ms": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
